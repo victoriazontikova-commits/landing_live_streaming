@@ -59,7 +59,7 @@
 
     &__name,
     &__email,
-    &__text, {
+    &__text {
         @extend %input-template;
     }
 
@@ -84,7 +84,7 @@
 
         &__name,
         &__email,
-        &__text, {
+        &__text {
             @include m.font(18px, 400, v.$color_black);
 
             &::placeholder {
